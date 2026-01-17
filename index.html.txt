@@ -1,0 +1,8 @@
+index.html
+style.css
+script.js
+fr.json
+en.json
+images/
+  ├─ image1.jpg
+  ├─ image2.jpg

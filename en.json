@@ -1,0 +1,23 @@
+{
+  "nav_home": "Home",
+  "nav_gallery": "Gallery",
+  "nav_prices": "Prices",
+  "nav_terms": "Terms",
+  "nav_about": "About",
+  "nav_contact": "Contact",
+
+  "welcome": "Welcome",
+  "intro": "Independent artist – varied style",
+
+  "gallery": "Gallery",
+  "prices": "Prices",
+
+  "terms": "Terms of Use",
+  "terms_text": "All artworks remain the exclusive property of Arisuccubus. Personal use only. AI and NFT strictly forbidden.",
+
+  "about": "About",
+  "about_text": "I’m Arisuccubus, an independent artist.",
+
+  "contact": "Contact",
+  "contact_text": "Find me on my social networks."
+}

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Arisuccubus</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+  <h1>Arisuccubus</h1>
+
+  <nav>
+    <a href="#home" data-key="nav_home"></a>
+    <a href="#gallery" data-key="nav_gallery"></a>
+    <a href="#prices" data-key="nav_prices"></a>
+    <a href="#terms" data-key="nav_terms"></a>
+    <a href="#about" data-key="nav_about"></a>
+    <a href="#contact" data-key="nav_contact"></a>
+  </nav>
+
+  <select id="language">
+    <option value="fr">FR</option>
+    <option value="en">EN</option>
+  </select>
+</header>
+
+<main>
+
+<section id="home">
+  <h2 data-key="welcome"></h2>
+  <p data-key="intro"></p>
+</section>
+
+<section id="gallery">
+  <h2 data-key="gallery"></h2>
+
+  <div class="gallery-grid">
+    <div class="gallery-item">
+      <img src="images/image1.jpg" alt="Artwork">
+      <span class="watermark">Arisuccubus</span>
+    </div>
+
+    <div class="gallery-item">
+      <img src="images/image2.jpg" alt="Artwork">
+      <span class="watermark">Arisuccubus</span>
+    </div>
+  </div>
+</section>
+
+<section id="prices">
+  <h2 data-key="prices"></h2>
+
+  <button class="accordion">Lineart</button>
+  <div class="panel">
+    <p>Buste : 15€</p>
+    <p>Mi-corps : 20€</p>
+    <p>Corps entier : 25€</p>
+    <p>Options : Ombrage +5€, personnage supplémentaire +10€</p>
+  </div>
+
+  <button class="accordion">Illustrations</button>
+  <div class="panel">
+    <p>Buste : 30€</p>
+    <p>Mi-corps : 45€</p>
+    <p>Corps entier : 70€</p>
+    <p>Options : personnage supplémentaire = 50% du prix, fond +10€</p>
+  </div>
+
+  <button class="accordion">Extras</button>
+  <div class="panel">
+    <p>Fiche de référence personnage : 50€</p>
+    <p>Emotes : 5–15€</p>
+    <p>Pack 5 emotes : 65€</p>
+    <p>Pack 5 emotes + 1 animée : 70€</p>
+  </div>
+</section>
+
+<section id="terms">
+  <h2 data-key="terms"></h2>
+  <p data-key="terms_text"></p>
+</section>
+
+<section id="about">
+  <h2 data-key="about"></h2>
+  <p data-key="about_text"></p>
+</section>
+
+<section id="contact">
+  <h2 data-key="contact"></h2>
+  <p data-key="contact_text"></p>
+</section>
+
+</main>
+
+<!-- LIGHTBOX -->
+<div id="lightbox">
+  <span id="close">&times;</span>
+  <img id="lightbox-img">
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
